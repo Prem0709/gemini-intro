@@ -3,7 +3,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Securely store API Key (DO NOT SHARE PUBLICLY)
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyBL1AgvMOn4RtGkJ9kSmSR4aNngFPQSubA")  # Replace with your actual API key
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "0AIzaSyBL17AgvMOn4RtGkJ0_9kSmSR4aNngFPQSubA9")  # Replace with your actual API key
 genai.configure(api_key=GEMINI_API_KEY)
 
 if GEMINI_API_KEY == "your_api_key_here":
